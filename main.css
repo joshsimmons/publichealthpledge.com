@@ -58,7 +58,7 @@ footer {
         white-space: nowrap;
     }
 
-sr-only {
+.sr-only {
     border: 0 none;
     clip: rect(0px,0px,0px,0px);
     height: 1px;
