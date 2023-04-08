@@ -9,13 +9,24 @@ header {
     z-index: 10;
 }
 
-    .navbar-brand {
-        line-height: 40px;
-    }
-
-    .navbar-brand span {
+    .nav-link .fa-circle-plus {
         font-size: 40px;
         color: #006778;
+        margin-right: 0.5rem;
+    }
+
+    .nav-link.has-icon {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .nav-link.has-icon > .nav-text {
+        text-decoration: underline;
+    }
+    .nav-link.has-icon:hover > .nav-text,
+    .nav-link.has-icon:focus > .nav-text {
+        text-decoration: none;
     }
 
     #cta-add-your-name {
