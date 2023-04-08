@@ -15,17 +15,14 @@
 </head>
 
 <body class="bg-light">
-
-    <header class="navbar navbar-expand flex-column flex-md-row bg-white bd-navbar">    
-        <a class="navbar-brand mr-0 mr-md-2" href="/">
-            <span class="fa-solid fa-circle-plus" aria-hidden="true"></span>
-            <span class="sr-only">The Public Health Pledge #PHPledge</span>
-        </a>
-        <nav class="navbar-nav-scroll">
-            <div class="navbar-nav bd-navbar-nav flex-row" id="nav">
-                <span class="nav-item"><a class="nav-link active" href="/">The Public Health Pledge</a></span>
-                <span class="nav-item"><a class="nav-link" href="/badging">Event Badging</a></span>
-            </div>
+    <header class="navbar navbar-expand flex-column flex-md-row bg-white bd-navbar">
+        <a href="#content" class="skip-link btn btn-primary">Skip to content</a>
+        <nav class="navbar-nav bd-navbar-nav flex-row align-items-center flex-wrap">
+            <a class="nav-link has-icon active" href="/">
+                <span class="fa-solid fa-circle-plus" aria-hidden="true"></span>
+                <span class="nav-text">The Public Health Pledge</span>
+            </a>
+            <a class="nav-link" href="/badging">Event Badging</a>
         </nav>
 
         <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex" id="social">
@@ -35,7 +32,7 @@
         </ul>
     </header>
 
-    <main class="container">
+    <main class="container" id="content">
         <h1 class="sr-only">The Public Health Pledge Page</h1>
         <h2 class="sr-only">Background</h2>
         <p class="lead">We are committing to safer and more inclusive events. You can too.</p>
