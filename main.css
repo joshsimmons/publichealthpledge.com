@@ -31,8 +31,11 @@ main {
         padding-left: 0.5em;
     }
 
-    #the-pledge {
+    .the-pledge {
         margin-bottom: 1em;
+    }
+    .the-pledge .card-title {
+        font-size: 1.125em;
     }
 
     #logos {
